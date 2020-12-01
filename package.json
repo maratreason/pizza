@@ -23,6 +23,7 @@
   },
   "scripts": {
     "start": "concurrently \"json-server --watch public/db.json --port 3004\" \"react-scripts start\"",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "json-server": "json-server --watch public/db.json --port 3004",
     "eject": "react-scripts eject"
